@@ -10,11 +10,11 @@ library(reshape2)
 library(DataExplorer)
 library(psych)
 
-daily_activity <- read.csv("/Users/HarnoorBagga/Desktop/RStudio/FitabaseData/dailyActivity_merged.csv")
-hourly_сalories <- read.csv("/Users/HarnoorBagga/Desktop/RStudio/FitabaseData/hourlyCalories_merged.csv")
-hourly_intensities <- read.csv("/Users/HarnoorBagga/Desktop/RStudio/FitabaseData/hourlyIntensities_merged.csv")
-hourly_steps <- read.csv("/Users/HarnoorBagga/Desktop/RStudio/FitabaseData/hourlySteps_merged.csv")
-daily_sleep <- read.csv("/Users/HarnoorBagga/Desktop/RStudio/FitabaseData/sleepDay_merged.csv")
+daily_activity <- read.csv("/Users/HarnoorBagga/Desktop/FitBit_Analysis/FitBit_Data/dailyActivity_merged.csv")
+hourly_сalories <- read.csv("/Users/HarnoorBagga/Desktop/FitBit_Analysis/FitBit_Data/hourlyCalories_merged.csv")
+hourly_intensities <- read.csv("/Users/HarnoorBagga/Desktop/FitBit_Analysis/FitBit_Data/hourlyIntensities_merged.csv")
+hourly_steps <- read.csv("/Users/HarnoorBagga/Desktop/FitBit_Analysis/FitBit_Data/hourlySteps_merged.csv")
+daily_sleep <- read.csv("/Users/HarnoorBagga/Desktop/FitBit_Analysis/FitBit_Data/sleepDay_merged.csv")
 
 
 head(daily_activity, 1)
