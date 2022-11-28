@@ -85,9 +85,7 @@ glimpse(daily)
 # build density plot
 
 
-#build correlation plot
 
-corPlot(daily[,3:18], cex = 0.8, cex.axis=0.8,upper=FALSE, scale=FALSE, main="Correlations in daily activity", select=(-c(2:8,14)))
 
 daily %>%  
   select(TotalSteps,
@@ -257,7 +255,7 @@ g4 <- daily_2 %>%
 print(g4)
 
 
-corPlot(hourly[,4:7], cex = 0.8, cex.axis=0.8,upper=FALSE, scale=TRUE, main="Correlations in hourly activity")
+#corPlot(hourly[,4:7], cex = 0.8, cex.axis=0.8,upper=FALSE, scale=TRUE, main="Correlations in hourly activity")
 
 
 
